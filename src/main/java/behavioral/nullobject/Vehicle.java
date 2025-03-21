@@ -1,2 +1,5 @@
-package behavioral.nullobject;public interface Vehicle {
+package behavioral.nullobject;
+
+public interface Vehicle {
+    int tankCapacity();
 }
