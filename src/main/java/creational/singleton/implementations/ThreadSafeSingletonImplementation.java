@@ -1,4 +1,4 @@
-package creational.singleton;
+package creational.singleton.implementations;
 
 public class ThreadSafeSingletonImplementation {
     private static ThreadSafeSingletonImplementation instance;

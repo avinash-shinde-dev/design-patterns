@@ -1,4 +1,4 @@
-package creational.singleton;
+package creational.singleton.implementations;
 
 /**
  * This code will work perfectly in the single threaded environment, but it will start failing if

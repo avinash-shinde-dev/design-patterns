@@ -1,4 +1,4 @@
-package creational.singleton;
+package creational.singleton.implementations;
 
 public class CompleteSingletonImplementation {
     private static volatile CompleteSingletonImplementation instance;
