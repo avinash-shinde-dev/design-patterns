@@ -1,4 +1,4 @@
-package creational.factory;
+package creational.factory.restaurant;
 
 public abstract class Restaurant {
     public Burger orderBurger(){

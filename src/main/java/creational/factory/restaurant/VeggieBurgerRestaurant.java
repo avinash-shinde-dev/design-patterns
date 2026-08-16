@@ -1,4 +1,4 @@
-package creational.factory;
+package creational.factory.restaurant;
 
 public class VeggieBurgerRestaurant extends Restaurant{
     @Override
