@@ -4,11 +4,14 @@ public class DecoratorDesignPattern {
     public static void main(String[] args) {
         /**
          *  Decorator design pattern that allows you to enhance or modify
-         *  the behaviour of objects at runtime. It achieves this by creating
+         *  the behavior of objects at runtime. It achieves this by creating
          *  the set of decorator classes that are uses to wrap the concrete
          *  component. Each decorator adds the specific features to the component.
          *  you can stack multiple decorators to create various combination.
 
+          * problem :
+         *  1. Scalability
+            2. Single Responsibility principle violated
          *  When to use ?
          *  - Add new features: If you want extra features to the object without changing
          *  their core structure. ex. It's like putting toppings on pizza without
